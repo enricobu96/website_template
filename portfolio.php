@@ -8,17 +8,17 @@ require_once("includes/resources.php");
 
 $page = (object) array(
 
-    "title" => "Homepage | Enrico Buratto",
-    "desc" => "Homepage",
-    "keywords" => "",
-    "name" => "index",
+    "title" => "Portfolio | Enrico Buratto",
+    "desc" => "Portfolio",
+    "keywords" => "portfolio",
+    "name" => "portfolio",
     //"breadcrumb" => array($lang->aboutTitle => "about.php")
 );
 
 
 require_once("views/template/header.php");
 
-require_once("views/index.php");
+require_once("views/portfolio.php");
 
 require_once("views/template/footer.php");
 
