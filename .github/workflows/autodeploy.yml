@@ -18,4 +18,4 @@ jobs:
         with:
           url: ${{ secrets.FTP_URL }}
           user: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PWD }}
+          password: ${{ secrets.FTP_PWD }} 
