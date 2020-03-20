@@ -8,10 +8,10 @@ require_once("includes/resources.php");
 
 $page = (object) array(
 
-    "title" => "Homepage | Enrico Buratto",
-    "desc" => "Homepage",
+    "title" => "",
+    "desc" => "",
     "keywords" => "",
-    "name" => "index",
+    "name" => "",
     //"breadcrumb" => array($lang->aboutTitle => "about.php")
 );
 
